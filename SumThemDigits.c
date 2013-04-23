@@ -23,7 +23,6 @@ int digitalSum(int input) {
 
 	while (input>9) {
 		sum += input%10;
-		input -= input%10;
 		input /= 10;
 	}
 	sum += input;
